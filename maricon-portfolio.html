@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maricon M. Abueg - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        :root {
+            --primary: #1e293b;
+            --accent: #f27d26;
+            --accent-soft: #fff7ed;
+            --text-main: #334155;
+            --text-light: #64748b;
+            --bg: #f8fafc;
+            --border: #e2e8f0;
+        }
+        .bg-bg { background-color: var(--bg); }
+        .text-primary { color: var(--primary); }
+        .text-accent { color: var(--accent); }
+        .bg-accent { background-color: var(--accent); }
+        .bg-accent-soft { background-color: var(--accent-soft); }
+        .text-text-main { color: var(--text-main); }
+        .text-text-light { color: var(--text-light); }
+        .border-border-subtle { border-color: var(--border); }
+        .bg-primary { background-color: var(--primary); }
+    </style>
+</head>
+<body class="bg-white text-text-main selection:bg-accent selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-border-subtle">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0">
+                    <span class="font-extrabold text-2xl tracking-tighter text-primary">Maricon M. Abueg</span>
+                </div>
+                <div class="hidden md:flex items-center gap-4">
+                    <div class="flex items-baseline space-x-6 mr-4 text-xs font-medium uppercase tracking-tight text-text-light">
+                        <a href="#about" class="hover:text-primary transition-colors">About</a>
+                        <a href="#services" class="hover:text-primary transition-colors">Services</a>
+                        <a href="#portfolio" class="hover:text-primary transition-colors">Portfolio</a>
+                        <a href="#experience" class="hover:text-primary transition-colors">Experience</a>
+                    </div>
+                    <div class="flex gap-2">
+                        <div class="hidden lg:block px-4 py-1.5 border border-border-subtle rounded-full text-[10px] font-semibold text-text-light bg-white uppercase">
+                            mariconmabueg@gmail.com
+                        </div>
+                        <a href="#contact" class="bg-primary text-white px-6 py-2 rounded-lg font-semibold text-xs hover:bg-slate-700 transition-all">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-40 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl">
+                <h1 class="font-bold text-6xl md:text-7xl leading-[1.05] text-primary mb-6 tracking-tight">
+                    Administrative Precision.<br>
+                    <span class="text-accent">Creative Strategy.</span>
+                </h1>
+                <p class="text-xl text-text-light max-w-2xl mb-10 leading-relaxed font-medium">
+                    Bridging the gap between high-level executive support and digital brand growth. With 5+ years of experience, I build the systems that keep businesses running and the content that keeps them growing.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="inline-flex items-center justify-center bg-primary text-white px-8 py-3.5 rounded-lg font-bold text-sm hover:bg-slate-700 transition-all">Hire Me</a>
+                    <a href="#portfolio" class="inline-flex items-center justify-center border border-primary text-primary px-8 py-3.5 rounded-lg font-bold text-sm hover:bg-bg transition-all">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-24 bg-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="space-y-6">
+                        <img src="https://picsum.photos/seed/work1/400/600" alt="Workspace" class="rounded-2xl w-full aspect-[2/3] object-cover border border-border-subtle shadow-sm">
+                        <div class="bg-white p-8 rounded-2xl border border-border-subtle shadow-sm text-center">
+                            <p class="text-4xl font-extrabold text-primary tracking-tighter">5+</p>
+                            <p class="text-[10px] uppercase tracking-widest font-bold text-text-light mt-1">Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="space-y-6 pt-12">
+                        <div class="bg-accent-soft p-8 rounded-2xl border border-accent/10 shadow-sm">
+                            <p class="text-text-main font-medium text-lg leading-relaxed italic">"I ensure every email, SOP, and caption is aligned with your brand voice."</p>
+                        </div>
+                        <img src="https://picsum.photos/seed/work2/400/600" alt="Content" class="rounded-2xl w-full aspect-[2/3] object-cover border border-border-subtle shadow-sm">
+                    </div>
+                </div>
+                <div>
+                    <p class="uppercase tracking-widest text-xs font-bold mb-3 text-accent">About Me</p>
+                    <h2 class="font-bold text-3xl md:text-4xl tracking-tight text-primary mb-12">The Magna Cum Laude Advantage</h2>
+                    <div class="space-y-6 text-text-main text-lg leading-relaxed">
+                        <p>As an English Major and honor graduate, I thrive at the intersection of organization and creativity. I apply my foundation in clear communication to help executives regain their time and help brands find their voice.</p>
+                        <p class="text-text-light text-base">Whether I’m streamlining a workflow in ClickUp or editing a high-impact reel in Premiere Pro, my goal is always the same: to deliver excellence that drives tangible business growth.</p>
+                        <div class="pt-8 border-t border-border-subtle mt-10">
+                            <p class="text-accent font-extrabold text-sm uppercase tracking-wider">BSE English • Magna Cum Laude</p>
+                            <p class="text-text-light text-xs font-semibold uppercase tracking-tight mt-1">Polytechnic University of the Philippines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="uppercase tracking-widest text-xs font-bold mb-3 text-accent">What I Do</p>
+            <h2 class="font-bold text-3xl md:text-4xl tracking-tight text-primary mb-12">Specialized Expertise</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- EA Card -->
+                <div class="bg-white border border-border-subtle rounded-2xl p-8 shadow-sm flex flex-col gap-6">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-accent-soft rounded-lg flex items-center justify-center text-accent font-bold text-sm">EA</div>
+                        <h3 class="font-bold text-xl text-primary tracking-tight">Executive Management</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-text-main text-[11px] font-bold rounded-md">ClickUp</span>
+                        <span class="px-3 py-1 bg-slate-100 text-text-main text-[11px] font-bold rounded-md">Notion</span>
+                        <span class="px-3 py-1 bg-slate-100 text-text-main text-[11px] font-bold rounded-md">Workspace</span>
+                    </div>
+                    <ul class="space-y-4 border-t pt-6 border-border-subtle">
+                        <li class="flex gap-3"><i data-lucide="clipboard-check" class="text-accent w-5 h-5"></i><span>Operational Streamlining & SOPs</span></li>
+                        <li class="flex gap-3"><i data-lucide="calendar" class="text-accent w-5 h-5"></i><span>Calendar Mastery & Coordination</span></li>
+                    </ul>
+                </div>
+                <!-- SM Card -->
+                <div class="bg-white border border-border-subtle rounded-2xl p-8 shadow-sm flex flex-col gap-6">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-accent-soft rounded-lg flex items-center justify-center text-accent font-bold text-sm">SM</div>
+                        <h3 class="font-bold text-xl text-primary tracking-tight">Social Media Strategy</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-text-main text-[11px] font-bold rounded-md">Meta Suite</span>
+                        <span class="px-3 py-1 bg-slate-100 text-text-main text-[11px] font-bold rounded-md">Canva</span>
+                        <span class="px-3 py-1 bg-slate-100 text-text-main text-[11px) font-bold rounded-md">Premiere Pro</span>
+                    </div>
+                    <ul class="space-y-4 border-t pt-6 border-border-subtle">
+                        <li class="flex gap-3"><i data-lucide="trending-up" class="text-accent w-5 h-5"></i><span>Narrative Strategy & Growth</span></li>
+                        <li class="flex gap-3"><i data-lucide="video" class="text-accent w-5 h-5"></i><span>High-impact Video Content</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-24 bg-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p class="uppercase tracking-widest text-xs font-bold mb-3 text-accent">Selected Work</p>
+            <h2 class="font-bold text-3xl md:text-4xl tracking-tight text-primary mb-12">Portfolio Highlights</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Portfolio items would be here -->
+                <div class="bg-white border border-border-subtle rounded-xl overflow-hidden shadow-sm">
+                    <img src="https://picsum.photos/seed/p1/400/300" alt="Work" class="w-full aspect-[4/3] object-cover">
+                    <div class="p-5">
+                        <span class="text-[9px] uppercase font-bold text-text-light bg-slate-100 px-2 py-0.5 rounded">Graphic Design</span>
+                        <h3 class="font-bold text-sm text-primary mt-2">Event Branding</h3>
+                    </div>
+                </div>
+                <div class="bg-white border border-border-subtle rounded-xl overflow-hidden shadow-sm">
+                    <img src="https://picsum.photos/seed/p2/400/300" alt="Work" class="w-full aspect-[4/3] object-cover">
+                    <div class="p-5">
+                        <span class="text-[9px] uppercase font-bold text-text-light bg-slate-100 px-2 py-0.5 rounded">Strategy</span>
+                        <h3 class="font-bold text-sm text-primary mt-2">Meta Suite Growth</h3>
+                    </div>
+                </div>
+                <div class="bg-white border border-border-subtle rounded-xl overflow-hidden shadow-sm">
+                    <img src="https://picsum.photos/seed/p3/400/300" alt="Work" class="w-full aspect-[4/3] object-cover">
+                    <div class="p-5">
+                        <span class="text-[9px] uppercase font-bold text-text-light bg-slate-100 px-2 py-0.5 rounded">Writing</span>
+                        <h3 class="font-bold text-sm text-primary mt-2">SEO Blog Content</h3>
+                    </div>
+                </div>
+                <div class="bg-white border border-border-subtle rounded-xl overflow-hidden shadow-sm">
+                    <img src="https://picsum.photos/seed/p4/400/300" alt="Work" class="w-full aspect-[4/3] object-cover">
+                    <div class="p-5">
+                        <span class="text-[9px] uppercase font-bold text-text-light bg-slate-100 px-2 py-0.5 rounded">Editing</span>
+                        <h3 class="font-bold text-sm text-primary mt-2">Video Production</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-primary text-white pt-24 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 pb-20 border-b border-white/10">
+                <div>
+                    <h2 class="font-bold text-5xl md:text-6xl mb-8 tracking-tighter uppercase leading-[1.1]">
+                        Administrative <span class="text-accent italic">Precision</span>.<br>
+                        Creative <span class="text-accent italic">Strategy</span>.
+                    </h2>
+                    <p class="text-lg text-slate-400 mb-12 font-medium">Currently accepting new client projects and full-time opportunities.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="mailto:mariconmabueg@gmail.com" class="flex items-center gap-3 px-6 py-3 bg-white/5 rounded-full border border-white/10 hover:text-accent transition-colors font-bold text-sm">
+                            <i data-lucide="mail" class="w-4 h-4 text-accent"></i> mariconmabueg@gmail.com
+                        </a>
+                        <a href="#" class="flex items-center gap-3 px-6 py-3 bg-white/5 rounded-full border border-white/10 hover:text-accent transition-colors font-bold text-sm">
+                            <i data-lucide="linkedin" class="w-4 h-4 text-accent"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="space-y-6">
+                        <h3 class="text-accent text-[10px] font-bold uppercase tracking-widest">Sitemap</h3>
+                        <ul class="space-y-4 text-sm font-semibold">
+                            <li><a href="#about" class="hover:text-accent transition-colors">About Me</a></li>
+                            <li><a href="#services" class="hover:text-accent transition-colors">Services</a></li>
+                            <li><a href="#portfolio" class="hover:text-accent transition-colors">Portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase font-bold text-slate-500">
+                <span>© 2026 Maricon M. Abueg.</span>
+                <div class="flex gap-8">
+                    <div class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> Available for Work</div>
+                    <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3 h-3"></i> Remote Ready</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
